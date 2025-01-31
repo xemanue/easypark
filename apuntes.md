@@ -36,7 +36,15 @@ Hay dos modelos principales:
 
 La referencia [6][6] contiene información acerca del uso de este tipo de sensor. En su introducción se destaca que uno de los principales problemas de usar sensores magnéticos es el delay que presentan las mediciones, llegando a tener problemas para detectar un cambio entre dos coches.
 
-## Implementaciones existentes
+Se podría realizar una serie de pruebas para determinar la carga magnética aproximada de vehiculos de distinto tamaño, similar a [16][16]. De esta forma, basándonos en las mediciones, podríamos estimar con mayor precisión el tamaño del vehículo aparcado.
+
+## Ultrasonidos
+
+La única forma que he encontrado de medir los huecos sería usando un motor, como se muestra en [15][15]
+
+---
+
+# Implementaciones existentes
 [Fuente][8]
 
 - Málaga: La empresa encargada es [ParkHelp][9], cuyos sensores combinan tecnología magnética y micro-radar.
@@ -82,3 +90,6 @@ La referencia [6][6] contiene información acerca del uso de este tipo de sensor
 [12]: <https://urbiotica.com/>
 [13]: <https://www.streetline.com/>
 [14]: <https://www.smartparking.com/uk>
+[15]: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658900>
+[16]: <https://journals.sagepub.com/doi/pdf/10.1177/0361198105191700119?download=true>
+
