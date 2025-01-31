@@ -11,6 +11,11 @@
 
 ---
 
+# Como medir espacios
+
+
+---
+
 # Arquitectura
 Cada sensor estaría formado por un ESP8266, un módulo SX1278 y el propio sensor. Habría un Arduino o similar como "nodo maestro", que procesaría la información recopilada por los sensores. Las conexiones se realizarían como en [5][5].
 
