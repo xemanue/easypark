@@ -38,6 +38,8 @@ La referencia [6][6] contiene información acerca del uso de este tipo de sensor
 
 Se podría realizar una serie de pruebas para determinar la carga magnética aproximada de vehiculos de distinto tamaño, similar a [16][16]. De esta forma, basándonos en las mediciones, podríamos estimar con mayor precisión el tamaño del vehículo aparcado.
 
+La referencia [17][17] muestra en detalle el uso de sensores magnéticos en un aparcamiento inteligente. En esta se referencia a su vez la [18][18], que destaca por su algoritmo, optimizado para el ahorro de energía sin comprometer la precisión de detección.
+
 ## Ultrasonidos
 
 La única forma que he encontrado de medir los huecos sería usando un motor, como se muestra en [15][15]
@@ -70,10 +72,9 @@ La única forma que he encontrado de medir los huecos sería usando un motor, co
 - Información acerca de distintos tipos de sensores con respecto a su uso en exterior.
     [6]: <https://ijees.org/index.php/ijees/article/view/45/21>
 - Implementación de Smart Parking usando NodeMCU.
-    [7]: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8389415>
+   [7]: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8389415>
 - Estudio que compara las características de distintos tipos de parkings inteligentes y de los sensores que usan.
     [8]: <https://www.sciencedirect.com/science/article/pii/S2210670718327173>
-
 
 ## Referenciados
 [1]: <https://store.arduino.cc/en-es/products/arduino-mega-2560-rev3>
@@ -92,4 +93,6 @@ La única forma que he encontrado de medir los huecos sería usando un motor, co
 [14]: <https://www.smartparking.com/uk>
 [15]: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658900>
 [16]: <https://journals.sagepub.com/doi/pdf/10.1177/0361198105191700119?download=true>
-
+[17]: <https://journals.sagepub.com/doi/pdf/10.1155/2015/361242?download=true>
+[18]: <https://journals.sagepub.com/doi/pdf/10.1155/2013/107975?download=true>
+[19]: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6650185>
